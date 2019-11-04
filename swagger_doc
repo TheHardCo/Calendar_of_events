@@ -413,15 +413,6 @@ definitions:
           wrapped: true
         items:
           $ref: "#/definitions/Tag"
-      status:
-        type: "string"
-        description: "pet status in the store"
-        enum:
-        - "available"
-        - "pending"
-        - "sold"
-    xml:
-      name: "Pet"
   # ApiResponse:
   #   type: "object"
   #   properties:
